@@ -9,18 +9,55 @@ namespace IP
         static void Main(string[] args)
         {
 
-            Console.WriteLine("177.16.242.3");
+            Console.ForegroundColor = ConsoleColor.Yellow;
+            Console.WriteLine("\n\n");
+            Console.WriteLine("Dados do computador:");
+            Console.WriteLine("\n");
 
-            Console.WriteLine("Seu IP da rede: IPV6");
+            Console.ForegroundColor = ConsoleColor.White;
+            Console.BackgroundColor = ConsoleColor.Black;
+
+            try
+            {
+                Console.ForegroundColor = ConsoleColor.Green;
+                Console.Write("Nome do host: ");
+                Console.ForegroundColor = ConsoleColor.Yellow;
+                string NomePc = Dns.GetHostName();
+                Console.WriteLine(NomePc.ToString());
+            }
+            catch (Exception e)
+            {
+                Console.ForegroundColor = ConsoleColor.Yellow;
+                Console.BackgroundColor = ConsoleColor.Red;
+                Console.Write(" ERRO: ");
+                Console.Write(e.Message);
+            }
+
+            Console.ForegroundColor = ConsoleColor.White;
+            Console.BackgroundColor = ConsoleColor.Black;
+
+            try {
+            Console.ForegroundColor = ConsoleColor.Green;
+            Console.Write("IP de rede:");
+            Console.ForegroundColor = ConsoleColor.Magenta;
+            Console.Write(" IPV6 ");
+            Console.ForegroundColor = ConsoleColor.Yellow;
             string nome = Dns.GetHostName();
             IPAddress[] ip = Dns.GetHostAddresses(nome);
             Console.WriteLine(ip[1].ToString());
+            }
+            catch (Exception e) {
+                Console.ForegroundColor = ConsoleColor.Yellow;
+                Console.BackgroundColor = ConsoleColor.Red;
+                Console.Write(" ERRO: ");
+                Console.Write(e.Message);
+            }
 
-            Console.WriteLine("NomePC");
-            string NomePc = Dns.GetHostName();
-            Console.WriteLine(NomePc.ToString());
+            Console.ForegroundColor = ConsoleColor.White;
+            Console.BackgroundColor = ConsoleColor.Black;
 
-            // String IP = Request.UserHostAddress;
+            Console.WriteLine("\n\n");
+
         }
     }
 }

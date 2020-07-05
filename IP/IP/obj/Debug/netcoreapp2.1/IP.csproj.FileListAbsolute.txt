@@ -8,3 +8,13 @@ C:\Users\keven\OneDrive\Área de Trabalho\PegandoIP\IP\IP\bin\Debug\netcoreapp2.
 C:\Users\keven\OneDrive\Área de Trabalho\PegandoIP\IP\IP\bin\Debug\netcoreapp2.1\IP.pdb
 C:\Users\keven\OneDrive\Área de Trabalho\PegandoIP\IP\IP\obj\Debug\netcoreapp2.1\IP.dll
 C:\Users\keven\OneDrive\Área de Trabalho\PegandoIP\IP\IP\obj\Debug\netcoreapp2.1\IP.pdb
+C:\Users\keven.barauna\Downloads\OrfanizarGit\GetIp\IP\IP\bin\Debug\netcoreapp2.1\IP.deps.json
+C:\Users\keven.barauna\Downloads\OrfanizarGit\GetIp\IP\IP\bin\Debug\netcoreapp2.1\IP.runtimeconfig.json
+C:\Users\keven.barauna\Downloads\OrfanizarGit\GetIp\IP\IP\bin\Debug\netcoreapp2.1\IP.runtimeconfig.dev.json
+C:\Users\keven.barauna\Downloads\OrfanizarGit\GetIp\IP\IP\bin\Debug\netcoreapp2.1\IP.dll
+C:\Users\keven.barauna\Downloads\OrfanizarGit\GetIp\IP\IP\bin\Debug\netcoreapp2.1\IP.pdb
+C:\Users\keven.barauna\Downloads\OrfanizarGit\GetIp\IP\IP\obj\Debug\netcoreapp2.1\IP.csprojAssemblyReference.cache
+C:\Users\keven.barauna\Downloads\OrfanizarGit\GetIp\IP\IP\obj\Debug\netcoreapp2.1\IP.AssemblyInfoInputs.cache
+C:\Users\keven.barauna\Downloads\OrfanizarGit\GetIp\IP\IP\obj\Debug\netcoreapp2.1\IP.AssemblyInfo.cs
+C:\Users\keven.barauna\Downloads\OrfanizarGit\GetIp\IP\IP\obj\Debug\netcoreapp2.1\IP.dll
+C:\Users\keven.barauna\Downloads\OrfanizarGit\GetIp\IP\IP\obj\Debug\netcoreapp2.1\IP.pdb
