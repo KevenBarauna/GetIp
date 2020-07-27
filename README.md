@@ -7,12 +7,12 @@ Com uma interface mais amigável, executando o arquivo é exibido seu endereço 
 
 ##### Motivo
 
-Uma forma de proteção simples, a ideia era colocar esse esse arquivo em um pen drive e disfarçar o `.exe` com um icone mais comum, para que quando inciado o arquivo pegue algumas informações como: nome do host, endereço IP e enviar esses dados para um e-mail.
+Uma forma de proteção simples, a ideia era colocar esse arquivo em um pen drive e disfarçar o `.exe` com um icone mais comum, para que quando iniciado o arquivo pegue algumas informações como: nome do host, endereço IP e enviar esses dados para um e-mail.
 
 
 ##### Bibliotecas e tecnologias utilizadas:
 - C#
-- class DNS  `link DNS`  https://docs.microsoft.com/pt-br/dotnet/api/system.net.dns?view=netcore-3.1
+- Class DNS  `link DNS`  https://docs.microsoft.com/pt-br/dotnet/api/system.net.dns?view=netcore-3.1
 
 ##### Inciar o projeto:
 - Execulte o projeto no Visual Studio
